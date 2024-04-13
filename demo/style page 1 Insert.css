@@ -1,0 +1,72 @@
+* {
+    font-family: 'Tajawal';
+
+}
+
+
+
+body {
+
+    background-image: url("1202.jpeg");
+    color: white;
+    background-size: cover;
+}
+
+nav {
+    
+    background-color: rgba(0, 0, 0, 0.679);
+    width: 580px;
+
+    margin: auto;
+    margin-top: 250px;
+
+    padding: 30px;
+   
+
+
+
+
+}
+
+.form {
+
+    text-align: center;
+    border: 20px;
+   
+}
+
+label {
+    
+    font-size: 20px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #bdb88c;
+}
+
+#passwordError {
+    color: red;
+    display: none;
+}
+
+#sumbitButton:hover {
+    background-color: #183A37;
+    color: white;
+
+
+}
+
+#sumbitButton {
+    background-color: #FFF6EB;
+    color: #432534;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    
+    border-radius: 4px;
+    border: none;
+    width: 60PX;
+
+}

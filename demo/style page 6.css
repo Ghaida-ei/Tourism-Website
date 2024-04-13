@@ -1,0 +1,121 @@
+*{
+  font-family: 'Tajawal';
+}
+
+
+
+
+
+ul {
+  background-color: #183A37;
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 7.5px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin: 10px;
+
+}
+
+li a {
+  font-size: larger;
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0f2321;
+
+}
+
+
+
+#page6-active{
+  background-color: #0f2321;
+}
+
+#Logo {
+
+  margin: 0px;
+}
+body{
+  
+  background-image: url(023-12-02.jpeg);
+ 
+}
+
+fieldset{
+
+border-width: 5px;
+background-color: #fef4e3;
+border-color: #183A37;
+}
+
+h1{ text-align:right;
+text-indent: 20px;
+font-family:Tajawal ;
+font-size: 43px;
+position: relative;
+padding-top: 20;
+color: #183A37;
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+padding-right: 75px;
+}
+
+p{
+
+
+font-family: Tajawal;
+font-size: 20px;
+
+ 
+}
+
+img 
+{
+  opacity: 2.0;
+  float: right;
+  margin-left: 25px;
+  padding-top: 10px; 
+  width: 100px;
+}
+.footer {
+  background-color: #183A37;
+  padding: 0.2px;
+  color: white;
+
+
+}
+
+.footer * {
+  display: inline-block;
+  margin: 5px 10px;
+padding: px;
+
+}
+
+
+
+.G{
+  border-radius: 50%;
+}
+.footer-left{
+
+ margin-right: 55px;
+  
+}
+
+.P{
+  font-size: 20px;
+  }

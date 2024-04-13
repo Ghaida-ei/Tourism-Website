@@ -1,0 +1,220 @@
+a {
+  font-family: 'Tajawal';
+}
+
+#sumbitButton {
+  background-color: #FFF6EB;
+  color: #432534;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 4px 2px;
+  border-radius: 4px;
+  border: none;
+  width: 75PX;
+
+}
+
+h2 {
+  font-family: 'Tajawal';
+}
+
+
+
+input {
+  font-family: 'Tajawal';
+  margin: 8px;
+
+}
+
+h1 {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-align: center;
+  color: #04151f;
+  padding: 20pt;
+  padding-bottom: 60pt;
+}
+
+#t {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-align: center;
+  color: #C44900;
+  font-size: 25pt;
+}
+
+
+
+form {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: #432534;
+  font-size: 15pt;
+  text-align: right;
+  background-color: #FFF6EB;
+  padding: 15pt;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.grand_parent {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+
+#tit {
+  font-size: 25pt;
+  padding: 20px 0;
+  text-align: center;
+  color: #C44900;
+}
+
+b {
+  text-align: center;
+  padding-top: 5pt;
+  color: #fff;
+  margin-right: 125px;
+  font-size:x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+
+}
+
+#in1 {
+  font-family: 'Tajawal';
+  font-size: 15pt;
+}
+
+.parents {
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+}
+
+.child {
+  height: 200px;
+  background: #432534;
+  box-shadow: 0 0 20px #C44900;
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.child:first-child {
+  background: #432534;
+  padding-left: 50pt;
+}
+
+.child:last-child {
+  background: #432534;
+}
+
+@media (max-width: 768px) {
+  .grand_parent {
+    height: auto;
+  }
+}
+
+#lia {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+  padding-top: 10pt;
+  margin-right: 35px;
+}
+
+label {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: #432534;
+  font-size: 15pt;
+  padding-right: 10pt;
+}
+
+
+.footer {
+  background-color: #183A37;
+  padding: 0.2px;
+  color: white;
+
+}
+
+.footer * {
+  display: inline-block;
+  margin: 5px 20px;
+
+}
+
+.fieldset {
+  border-width: 5px;
+
+  border-style: solid;
+  color: #183A37;
+}
+
+
+
+#ulg {
+  background-color: #183A37;
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 7.5px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin: 10px;
+
+}
+
+li a {
+  font-size: larger;
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0f2321;
+
+}
+
+
+
+#page3-active {
+  background-color: #0f2321;
+}
+
+#Logo {
+
+  margin: 0px;
+}

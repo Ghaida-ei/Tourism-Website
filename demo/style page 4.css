@@ -1,0 +1,121 @@
+body {
+  background-color: #FFF6EB;
+}
+
+* {
+  font-family: 'Tajawal';
+}
+
+ul {
+  background-color: #183A37;
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 7.5px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin: 10px;
+
+}
+
+li a {
+  font-size: larger;
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0f2321;
+
+}
+
+#page3-active {
+  background-color: #0f2321;
+}
+
+#Logo {
+
+  margin: 0px;
+}
+
+table {
+  font-family: 'Tajawal';
+  border: 2px double rgba(76, 112, 133, 0.684);
+  width: 90%;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+h1 {
+  font-family: 'Tajawal';
+  font-size: 40px;
+  color: #183A37;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+td {
+  height: 80px;
+  text-align: center;
+  font-size: larger;
+}
+
+th {
+  height: 50px;
+  font-size: larger;
+}
+
+.R {
+  color: white;
+  background-color: #432534;
+
+}
+
+.O {
+  color: white;
+  background-color: #C44900;
+}
+
+.J {
+  color: white;
+  background-color: #183A37;
+}
+
+.K {
+  color: white;
+  background-color: #EFD6AC;
+}
+
+.T {
+  color: white;
+  background-color: #04151F;
+}
+
+.footer {
+  background-color: #183A37;
+  padding: 0.2px;
+  color: white;
+
+}
+
+.footer * {
+  display: inline-block;
+  margin: 5px 20px;
+
+}
+
+.fieldset {
+  border-width: 5px;
+
+  border-style: solid;
+  color: #183A37;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <link href="style page 2.css" rel="stylesheet" type="text/css"/>
+  <title>الصفحة الرئيسية </title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet"></link>
+
+</head>
+
+<body>
+  <!-- part 1 -->
+  <header>
+    <nav>
+      <ul>
+        <li id="Logo"><a href="Insert.html"> <img src="Logo.jpeg" style="width:180px;" height="75px"></li></a>
+        <li id="home-active"><a href="HTML page 2.html">الصفحة الرئيسية  <i class="fa-solid fa-house"></i></a ></li>
+        <li id="h"><a href="HTML page 3.html">  معالم و انشطة  <i class="fa-solid fa-map-location-dot"></i></a></li>
+        <li id="h"><a href="HTML page 4.html"> تقويم الفعاليات <i class="fa-regular fa-calendar"></i></a></li>
+        <li id="h"><a href="HTML Page 5.html" >  دليلك <i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li id="h"><a href="HTML page 6.html"> تطبيقات تخدمك <i class="fa-solid fa-mobile-screen-button"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <br><br><br><br>
+
+    <!-- part 2 -->
+
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+
+    <div class="mySlides">
+      <div id="background" onclick="typeWriter()"></div>
+      <div class="typewriter">
+        <h1 id="img1">اكتشف السعودية كما لم تراها من قبل</h1>
+      </div>
+      <img src="080.jpg" style="width:100% ;">
+    </div>
+
+    <div class="mySlides">
+      <div id="background" onclick="typeWriter()"></div>
+
+
+      <div class="typewriter">
+        <h1 id="img2"> عززت المملكة مكانتها كوجهه سياحية عالمية</h1>
+      </div>
+
+      <img src="12384.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides">
+      <div id="background" onclick="typeWriter()"></div>
+
+      <div class="typewriter">
+        <h1 id="img3">تعرف عن قرب على جمال المملكة الساحر و تراثها الغني</h1>
+      </div>
+
+      <img src="737.jpg" style="width:100%">
+
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+
+  <script>
+
+
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+
+    }
+
+  </script>
+
+
+  <br><br><br><br><br><br>
+
+   <!-- part 3 -->
+  <section class="figure">
+    <div class="row">
+      <div class="column">
+        <figure>
+          <img id="Riyadh" class="sec" src="9573.jpg" alt="NO img" />
+          <figcaption id="textimg"> <b style="font-size: 25px;">الرياض</b> هي المدينة التي لا تتوقف عن
+            النمو و الازدهار فتجمع بين التاريخ العريق و الحداثه استمتع بأروع المهرجانات و الفعاليات التي تجذب الملايين
+            من الزوار وعش الحياة العصرية بكل اصالة</figcaption>
+        </figure>
+      </div>
+      <div class="column">
+        <figure>
+          <img id="Jeddah" class="sec" src="7450.jpg" alt="NO img" />
+          <figcaption id="textimg"><b style="font-size: 25PX;">جدة </b>هي المدينة  يزورها العديد من أنحاء
+            العالم للاستكشاف والتجارة. فهي مهد للفنون وللموسيقى
+            وهي عالم
+            مليء بالثقافات المتنوعة ، تتمتع ببحرها الأحمر الحالم لتواصل اكتشاف جمالها</figcaption>
+        </figure>
+      </div>
+      <div class="column">
+        <figure>
+          <img id="Al-Ula" class="sec" src="1345.jpeg" alt="NO img" />
+          <figcaption id="textimg"><b style="font-size: 25px;">العُلا  </b>تتشكل بتفاصيلها الثرية منجمًا للتاريخ، وتحفة  
+            يقصدها الزوار من جميع
+            أنحاء
+            العالم، فعلى أرضها
+            التقت ثقافات إنسانية، ونمت حضارات عديدة، ومازالت أرضها تفصح كل مرة عن سر آخر.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- part 4 -->
+  <form>
+    <div>
+
+      <fieldset class="fieldset">
+        <legend> <b style="font-size: 30px;">رأيك يهمنا ...</b></legend>
+        <br /><br />
+        <label> <b style="font-size: 20px;">مدى رضاك: 0 </b> <input id="range" style="width: 350px;" type="range"
+            min="0" max="10" step="1"><b style="font-size: 20px;">10</b> </label>
+
+        <br><br>
+
+        <label><b style="font-size: 20px;">رأيك:</b><br /> <textarea id="comments" name="comments" rows="4" cols="50"
+            required=“required”> </textarea>
+        </label>
+        <br><br>
+        <input  id="sumbitButton" name="submitButton" type="submit" onclick="alert('شكراً لك على تقييمك  واهلاً و سهلاً بك في اتجاهات السعودية')"
+          value="إرسال"/>
+      </fieldset>
+
+    </div>
+  </form>
+
+
+
+  <br><br><br><br>
+
+
+
+  <!-- part 5 -->
+  <footer>
+    <div class="footer">
+      <div class="footer-right">
+        <h2>اتجاهات السعودية</h2>
+        <br>
+        <img src="Logo.jpeg" style="width:150px;" height="55px">
+      </div>
+
+      <div class="footer-center">
+        <h2>اتصل بنا</h2>
+        <br>
+        <p>0112476907<i class="fa-solid fa-phone" style="color: #ffffff;"></i></p>
+       
+      </div>
+
+      <div class="footer-left">
+        <h2>حسابتنا</h2>
+        <br>
+        <p>SA Destination@gmail.com<i class="fa-solid fa-envelope"></i></p>
+        <p>SA Destination_Twitter<i class="fab fa-twitter" style="color: #ffffff;"></i></p>
+        <p>SA Destination_Instagram <i class="fa-brands fa-instagram"></i></p>
+       
+      </div>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

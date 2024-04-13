@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="style page 1 Insert.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <nav>
+    <form onsubmit="return validateForm()" class="form" name="myForm" method="post" action="process.php">
+        
+        <label for="fname"> user name: </label><br><br>
+        <input type="text" id="fname" name="first_name" required><br><br><br>
+        <label for="pass">password:</label><br><br>
+        <input type="password" id="password" name="pwd" required><br><br>
+        <span id="passwordError">Password is invalid. It must be 8 digits without @, #, or % symbols.</span><br><br>
+        <input id="sumbitButton" type="submit" value="Submit" name="save">
+        
+    </form>
+
+    <script>
+        function isPasswordValid(password) {
+            // Check if password is 8 characters long and contains only digits
+            return /^\d{8}$/.test(password) && !/[#@%]/.test(password);
+        }
+        function validateForm() {
+            var errorSpan = document.getElementById("passwordError");
+
+            var password = document.getElementById("password").value;
+            if (!isPasswordValid(password)) {
+            errorSpan.style.display = "block";
+           return false; // Prevent form submission
+            }
+
+            errorSpan.style.display = "none";
+            return true; // Allow form submission
+        }
+    </script>
+   </nav> 
+</body>
+</html>
+
+
