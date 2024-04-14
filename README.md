@@ -5,7 +5,14 @@
 
 <h2>ديمو المشروع:</h2>
 
-![1108595](https://github.com/Ghaida-ei/Tourism-Website/assets/163098773/a265a6e6-05d9-49e5-ab91-c114ae715aac)
+
+
+
+![InShot_٢٠٢٤٠٤١٤_٠٣٣٨٠٤٣١٥ (1)](https://github.com/Ghaida-ei/Tourism-Website/assets/163098773/701d8df1-dc6d-4184-8dae-2ccfaec2aeae)
+
+
+
+
 
 <h2>التقنيات المستخدمة</h2>
 HTML , CSS , JS , PHP , MySQL
